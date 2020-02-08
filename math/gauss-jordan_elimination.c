@@ -32,7 +32,7 @@ int toReducedRowEchelon(float a[][M], int n) {
 			}
 
 			for (j = i, k = 0; k <= n; k++) 
-				swap(float, a[j][k], a[j+c][k]);
+				swap(float, a[j][k], a[j+c][k])
 		}
 
 		for (j = 0; j < n; j++) {
